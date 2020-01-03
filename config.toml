@@ -1,4 +1,4 @@
-baseURL = "https://profanity-im.github.io/blog"
+baseURL = "https://profanity-im.github.io/blog/"
 languageCode = "en-us"
 title = "profanity"
 # https://github.com/profanity-im/profanity-hugo-theme-ezhil
