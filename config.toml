@@ -1,6 +1,7 @@
 baseURL = "https://profanity-im.github.io/blog"
 languageCode = "en-us"
 title = "profanity"
+# https://github.com/profanity-im/profanity-hugo-theme-ezhil
 theme = "profanity-hugo-theme-ezhil"
 
 # Enable syntax highlighting.
