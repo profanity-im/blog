@@ -50,7 +50,7 @@ url = "https://twitter.com/ProfanityIM"
 [[params.social]]
 name = "RSS"
 icon = "rss"
-url = "/index.xml"
+url = "/blog/index.xml"
 
 [taxonomies]
   author = "authors"
