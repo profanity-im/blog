@@ -5,7 +5,7 @@ authors:
   - mdosch
 ---    
 
-**Written by Martin Dosch**
+*Written by Martin Dosch*
     
 When you're running profanity master it may occur that profanity crashes
 with SIGSEGV or SIGABRT when new features are added. If this happens it

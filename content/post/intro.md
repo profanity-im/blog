@@ -5,7 +5,7 @@ authors:
   - jubalh
 ---
 
-**Written by Michael Vetter**
+*Written by Michael Vetter*
 
 Hello folks!
 Now with the 0.8.0 release around the corner we would like to start a development blog.
