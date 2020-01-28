@@ -1,6 +1,6 @@
 ---    
 title: "How to get a backtrace"    
-date: 2020-01-03T17:16:59+02:00    
+date: 2020-01-26T17:16:59+02:00    
 authors:    
   - mdosch
 ---    
