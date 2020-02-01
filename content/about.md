@@ -6,6 +6,4 @@ type: "page"
 
 Development blog for Profanity.
 
-Blog article authors:
-
- * [jubalh](https://github.com/jubalh)
+Contribute by creating pull requests to [https://github.com/profanity-im/blog](https://github.com/profanity-im/blog).

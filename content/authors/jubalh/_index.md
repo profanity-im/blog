@@ -1,9 +1,8 @@
 ---
 name: jubalh
-photo: 'https://upload.wikimedia.org/wikipedia/commons/6/6d/Ursula_K_Le_Guin.JPG'
-twitter: ursulaleguin
+photo: 'https://avatars0.githubusercontent.com/u/1658215?s=460&v=4'
+twitter: jubalh_
 
 ---
-Ursula Kroeber Le Guin (October 21, 1929 – January 22, 2018) was an American
-novelist. The New York Times described her as “America’s greatest  science fiction writer”, although she said that she would prefer to be known as an “American novelist”.
 
+jubalh is currently the main developer of Profanity.
