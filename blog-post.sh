@@ -31,4 +31,4 @@ authors:
 
 EOF
 
-editor ./content/post/"$TITLE".md
+$EDITOR ./content/post/"$TITLE".md
