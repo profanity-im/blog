@@ -30,7 +30,7 @@ Use the `/avatar <jid>` command. And open it with `xdg-open ~/.local/share/profa
 A trackbar was added so you can easily see where you last left off reading. [#1238](https://github.com/profanity-im/profanity/issues/1238)
 
 ## Consistent Color Generation for nicks
-We gained support for XEP-0392 Consistent Color Generation for nicks [#1191](https://github.com/profanity-im/profanity/issues/1191)
+We gained support for XEP-0392 Consistent Color Generation for nicks [#1191](https://github.com/profanity-im/profanity/issues/1191).
 See `/color`, `/occupants color`, `/roster color`.
 
 ## Save current line
@@ -38,7 +38,7 @@ Add option to store current line in history (like irssi down arrow behaviour) [#
 Imagine you write a long line of text, only to find out someone else wrote something where you want to reply first.
 Now you can press alt+down-arrow to save the current line. Write a new one. Send it. And press arrow-up to get the saved line back from history.
 
-## Hilight unread messages
+## Highlight unread messages
 You can now highlight unread messages with a different color in /wins [#895](https://github.com/profanity-im/profanity/issues/895).
 New theming option is `cmd.wins.unread`.
 
@@ -57,7 +57,7 @@ A possibility to specify an alternative config file has been added: Use `profani
 ## Changes
 
 ### Preferences
-Preferences are not immediately saved once you change them. You will need to issue the `/save` command from now on. This has the advantage that you can experiment with different settings and themes and only if you are happy with your changes you save them. If everything will stay as it was.
+Preferences are not immediately saved once you change them. You will need to issue the `/save` command from now on. This has the advantage that you can experiment with different settings and themes and only if you are happy with your changes you save them. If not everything will stay as it was.
 
 ### Themes
 We changed the theme handling in Profanity.
@@ -118,14 +118,14 @@ Occupants and roster chars have never actually been saved!
 Seems noone discovered this for years until recently [#1244](https://github.com/profanity-im/profanity/issues/1244).
 
 ### Status messages
-Allow setting of status message (which actually never worked before) (b846c49)
+Allow setting of status message (which actually never worked before) [b846c49](https://github.com/profanity-im/profanity/commit/b846c4970bb8054ca2bacb8cebdbe4d9302f4cb6).
 `/status set online "This is my text"`
 `/status set away bye`
 `/status set away`
 
 ### Date
 If you configure Profanity to load the last few lines from the history in a chat window. It always displayed a date of `01-01-00` as this was hardcoded.
-Now it acually uses the right one. Seems this got unnoticed for years too [#922](https://github.com/profanity-im/profanity/issues/922).
+Now it acually uses the right one. Seems this has gone unnoticed for years too [#922](https://github.com/profanity-im/profanity/issues/922).
 
 ### Memory leaks
 We fixed many memory leaks. Profanity should be much nicer now if you plan to never quit it.
