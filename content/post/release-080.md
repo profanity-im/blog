@@ -6,12 +6,12 @@ authors:
 ---
 
 On 2012-02-02 the first commit to Profanity was done by [@boothj5](https://github.com/boothj5).
-So now Profanity is already 7 years old! Happy Birthday!
+So now Profanity is already 8 years old! Happy Birthday!
 
 As a present we release today the next version: 0.8.0!
 It's released five months after 0.7.0 and has 295 commits since then.
 
-Also more and more people contribute to Profanitys development. A big thanks to:
+Also more and more people contribute to Profanity's development. A big thanks to:
 [@paulfariello](https://github.com/paulfariello), [@svensp](https://github.com/svensp), [@aaptel](https://github.com/aaptel), [@aszlig](https://github.com/), [@mdosch](https://github.com/mdosch), [@pasis](https://github.com/pasis), [@mzagozen](https://github.com/mzagozen), [@quite](https://github.com/quite), [@weiss](https://github.com/weiss), [@Misaflo](https://github.com/Misaflo) and [@jubalh](https://github.com/).
 
 ## New features
@@ -78,11 +78,11 @@ You can switch this off with `/os off`.
 
 ### Standardize comamnds
 In an attempt to standardize commands some functionality got reorganized in different/new commands:
- * `/tls show on|of -> `/titlebar show|hide tls`
+ * `/tls show on|of` -> `/titlebar show|hide tls`
  * `/encwarn on|off` -> `/titlebar show|hide encwarn`
  * `/titlebar show|hide resource` additionally to `/resource titlebar on`
  * `/titlebar show|hide presence` additionally to `/presence titlebar on`
- * `/invite <contact>` -> `/invite send <contact>
+ * `/invite <contact>` -> `/invite send <contact>`
  * `/invites` -> `/invite list`
  * `/decline` -> `/invite decline`
  * `/online`, `/away`, `/dnd`, `/chat`, `/xa` -> `/status set online` etc.
@@ -100,7 +100,7 @@ Log MUC PM messages [#1184](https://github.com/profanity-im/profanity/issues/118
 We now use XEP-0359: Unique and Stable Stanza IDs to detect if MUC messages come from us or not [#1207](https://github.com/profanity-im/profanity/issues/1207).
 
 ## Clear command
-Add `/clear` autocompletion and improve it's documentation [#855](https://github.com/profanity-im/profanity/issues/855).
+Add `/clear` autocompletion and improve its documentation [#855](https://github.com/profanity-im/profanity/issues/855).
 
 ## Subscribed message
 Don't print subscribed message if contact is already in roster [#1166](https://github.com/profanity-im/profanity/issues/1166).
@@ -131,4 +131,4 @@ Now it acually uses the right one. Seems this got unnoticed for years too [#922]
 We fixed many memory leaks. Profanity should be much nicer now if you plan to never quit it.
 
 ### Log message carbons
-Carbon copied messages get now logged to your log files too [#1181](https://github.com/profanity-im/profanity/issues/1181).
+Carbon copied messages now get logged too [#1181](https://github.com/profanity-im/profanity/issues/1181).
