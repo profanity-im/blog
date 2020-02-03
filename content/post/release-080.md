@@ -1,6 +1,6 @@
 ---
 title: "Profanity 0.8.0"
-date: 2020-02-03T20:12:16+01:00
+date: 2020-02-03T14:46:08+01:00
 authors:
   - jubalh
 ---
@@ -8,11 +8,16 @@ authors:
 On 2012-02-02 the first commit to Profanity was done by [@boothj5](https://github.com/boothj5).
 So now Profanity is already 8 years old! Happy Birthday!
 
-As a present we release today the next version: 0.8.0!
+As a present we release today the next version: [0.8.0](https://github.com/profanity-im/profanity/releases/tag/0.8.0)!
 It's released five months after 0.7.0 and has 295 commits since then.
 
 Also more and more people contribute to Profanity's development. A big thanks to:
 [@paulfariello](https://github.com/paulfariello), [@svensp](https://github.com/svensp), [@aaptel](https://github.com/aaptel), [@aszlig](https://github.com/), [@mdosch](https://github.com/mdosch), [@pasis](https://github.com/pasis), [@mzagozen](https://github.com/mzagozen), [@quite](https://github.com/quite), [@weiss](https://github.com/weiss), [@Misaflo](https://github.com/Misaflo) and [@jubalh](https://github.com/).
+
+![Profanity](/static/img/profanity-rel-080.jpeg)
+
+{{< figure src="/static/img/profanity-rel-080.jpeg" title="prof" >}}
+![Example image](/img/profanity-rel-080.jpeg)
 
 ## New features
 We got fingerprint autocompletion for the `/omemo trust` command.      
