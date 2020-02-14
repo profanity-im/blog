@@ -23,8 +23,12 @@ Let's make this right: `/corr<TAB> <TAB>` will autocomplete to `/correct Hey the
 ![corrected](/static/img/prof-lmc-corrected.png)
 
 ## Details
-The feature is only available in the development version of Profanity.
+The feature is only available in the development version of Profanity. In the master branch on git.
+So it's not yet ready for release.
 
-We also need to rewrite more of our UI code. We can't yet compare the `from` field of the old and new message until we have done the rewrite because we don't save this in the UI buffer.
-So it's possible that someone could take a look at the IDs and "correct" the messages of other people. Keep this in mind if you choose to the enable this feature.
-We plan to rewrite the UI soon so we can properly check the messages origin.
+Master branch corresponds always to our development and doesn't guarantee anything. It's where we develop test and experiment.
+
+The LMC feature is in there. But for the correct behaviour we need to rewrite the UI code. We could hack a 'from' field in there but we want to think more carefully how to implement it nicely.
+For this reason in the current state we don't check the 'from' attribute of the sender. Because at the time of drawing so far we don't have this information.
+
+Since LMC is off by default noone is at harm. But people who choose to enable it need to be aware that in theory it would be possible for other users to send special messages where they could "correct" a message of someone else. We think the damage and likeliness from this is quite low. And once again, this is only in our development version of Profanity.
