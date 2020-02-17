@@ -19,8 +19,8 @@ Ouch! Already a typo.
 
 Let's make this right: `/corr<TAB> <TAB>` will autocomplete to `/correct Hey therr!` which then can easily be fixed and re-send.
 
-![mistake](/static/img/prof-lmc-wrong.png)
-![corrected](/static/img/prof-lmc-corrected.png)
+![mistake](/blog/img/prof-lmc-wrong.png)
+![corrected](/blog/img/prof-lmc-corrected.png)
 
 ## Details
 The feature is only available in the development version of Profanity. In the master branch on git.
