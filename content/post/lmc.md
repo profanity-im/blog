@@ -33,3 +33,6 @@ The LMC feature is in there. But for the correct behaviour we need to rewrite th
 For this reason in the current state we don't check the 'from' attribute of the sender. Because at the time of drawing so far we don't have this information.
 
 Since LMC is off by default noone is at harm. But people who choose to enable it need to be aware that in theory it would be possible for other users to send special messages where they could "correct" a message of someone else. We think the damage and likeliness from this is quite low. And once again, this is only in our development version of Profanity.
+
+## Done!
+Today, on 2020-03-09, we were able to finish LMC properly. So if you use master from [a23d4e4af7c10f6762577940a12983903bf4428d](https://github.com/profanity-im/profanity/commit/a23d4e4af7c10f6762577940a12983903bf4428d) you are good.
