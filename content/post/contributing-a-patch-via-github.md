@@ -7,7 +7,7 @@ authors:
 
 Several people mentioned in our MUC that they have problems contributing code to the Profanity repo on GitHub because "forking all the time is cumbersome".
 
-Let me show you an example workflow. Since I don't think it's cumversome at all.
+Let me show you an example workflow. Since I don't think it's cumbersome at all.
 I assume you have an account on [GitHub](https://github.com) and are logged in.
 First thing we do is fork the repo. So go to https://github.com/profanity-im/profanity and click on "Fork".
 Now you should be at your fork, in my case this is: https://github.com/jubalh/profanity/
