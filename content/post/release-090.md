@@ -20,7 +20,7 @@ Enable it with `/correction on`. If you mistyped a word just type `/correct` and
 
 ## Slashguard
 In our MUC we often see messages like "q/uit" or people having whitespaces before a command " /quit".
-To help you not make such mistakes we introduce slashguard.
+To help you to avoid such mistakes we introduce slashguard.
 Once enabled (`/slashguard on`) Profanity won't send messages that contain a backslash in the first four letters.
 
 ## New parameters
@@ -42,15 +42,15 @@ Previously you could choose whether to display the MUC name or MUC title in the 
 You can now use XEP-0092 not just to request client software information but also server software information.
 Use `/serversoftware domain.org`.
 
-## Themeing
-You can now colourize your trackbar by using `main.trackbar` in your theme.
+## Theming
+You can now colorize your trackbar by using `main.trackbar` in your theme.
 
 And you can use UTF-8 symbols as your OMEMO char.
 
 You can now choose not to colorize your own nick if you enabled XEP-0392.
 Use `/color own off` if you want consistent color generation for everybody else but not for yourself.
 
-MUC history messages were colored in one uniform color (grey by default). Many users would just get the same coloring and hilighting for like they do for freshly received messages. So we removed the uniform color feature [#1261](https://github.com/profanity-im/profanity/issues/1261).
+MUC history messages were colored in one uniform color (grey by default). Many users would just like to get the same coloring and hilighting for freshly received messages. So we removed the uniform color feature [#1261](https://github.com/profanity-im/profanity/issues/1261).
 
 And there is a new theme based on default: jubalian. Check it out ;)
 
@@ -63,18 +63,18 @@ By default we rely on xdg-open, so your default image viewer will be used.
 But you can choose to configure it yourself. For example to use `feh` instead: `/executable avatar feh`
 
 ## Open URLs
-People often had issues that URLs are too long and then broken into several lines. If they were in a MUC and had the occupants panel enabled, this made it impossible to click on the URL to open it because it was not one consecutive string.
+People often had issues with URLs that were too long and then broken into several lines. If they were in a MUC and had the occupants panel enabled, this made it impossible to click on the URL to open it because it was not one consecutive string.
 
 If you run Profanity locally (not on a remote machine where you log in via ssh) you can use use `/urlopen` to open an URL in your browser.
 
-By we use xdg-open again. But you can configure it like `/executable urlopen firefox`.
+We use xdg-open again. But you can configure it with `/executable urlopen firefox`.
 
 ## OMEMO
 OMEMO autocompletion had some quirks. We fixed them!
 We also stopped requesting the device list in non anon MUCs.
 
 ## Scrolling
-Sometimes it happened that you scroll up a window to read up on something. Then switch you application and later forget that you actually scrolled up. Why is noone saying anything in this MUC anymore?
+Sometimes it happened that you scroll up a window to read up on something. Then switch to another application and later forget that you actually scrolled up. Why is noone saying anything in this MUC anymore?
 
 In this version of Profanity we display a hint in the titlebar if a window is scrolled. Use `titlebar.scrolled` to theme it.
 
@@ -85,13 +85,13 @@ If you want to connect to them you will need libstrophe 0.9.3 and Profanity 0.9.
 Use `/connect <account> [auth default|legacy]` or `/account <account> set auth default|legacy`.
 
 ## Too many tabs
-In case you have many windows open you might want to only display the ones that have something going on in them.
+In case you many opened windows you might want to only display the ones that have something going on in them.
 Use `/statusbar show|hide read` to configure this to your liking.
 
 ## Bookmarks
-We now print the boomark names when using `/bookmark list`. You calso now add a name when using `/bookmark add`.
+We now print the boomark names when using `/bookmark list`. You can also now add a name when using `/bookmark add`.
 
-Gajim uses a custom way to save whether (autojoined) bookmarks should be minimized. When we manipulated at bookmark from Profanity we didn't respect this flag and it was overwritten. Now Profanity works nicer with Gajim [#1326](https://github.com/profanity-im/profanity/issues/1326).
+Gajim uses a custom way to save whether (autojoined) bookmarks should be minimized. When we updated a bookmark in Profanity we didn't respect this flag and it was overwritten. Now Profanity works nicer with Gajim [#1326](https://github.com/profanity-im/profanity/issues/1326).
 
 When you use multiple clients you probalby have some MUCs that you want to join on all devices. You use the autojoin flag for these cases.
 If you want to ignore the autojoin flag in a Profanity instance you can use `/bookmark ignore`.
