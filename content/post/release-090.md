@@ -5,7 +5,7 @@ authors:
   - jubalh
 ---
 
-Four months and 350 commits after 0.8.1 we are happy to release 0.9.0.
+Four months and 350 commits after 0.8.1 we are happy to release [0.9.0](https://github.com/profanity-im/profanity/releases/tag/0.9.0).
 
 7 people contributed code to it: [pasis](https://github.com/pasis), [wstrm](https://github.com/wstrm), [DebXWoody](https://github.com/DebXWoody), [toogley](https://github.com/toogley), [pmaziere](https://github.com/pmaziere), [moppman](https://github.com/moppman) and [jubalh](https://github.com/jubalh).
 
