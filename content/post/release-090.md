@@ -1,6 +1,6 @@
 ---
 title: "Profanity 0.9.0"
-date: 2020-05-09T14:46:08+01:00
+date: 2020-06-09T14:46:08+01:00
 authors:
   - jubalh
 ---
