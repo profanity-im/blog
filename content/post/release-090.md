@@ -21,7 +21,7 @@ Enable it with `/correction on`. If you mistyped a word just type `/correct` and
 ## Slashguard
 In our MUC we often see messages like "q/uit" or people having whitespaces before a command " /quit".
 To help you to avoid such mistakes we introduce slashguard.
-Once enabled (`/slashguard on`) Profanity won't send messages that contain a backslash in the first four letters.
+Once enabled (`/slashguard on`) Profanity won't send messages that contain a slash in the first four letters.
 
 ## New parameters
 You can specify a logfile upon startup via the new `-f` option:
