@@ -9,8 +9,10 @@ Hello folks,
 
 we have implemented an attention flag in profanity.
 
-The attention flag can be used to mark chat and groupchat where you would like
+The attention flag can be used to mark chats and groupchats where you would like to
 pay particular attention.
+
+This is only available on master, but will be in the next release (0.11.0).
 
 # How it works
 
