@@ -9,6 +9,8 @@ We have been to implement OX in profanity. OX is
 [XEP-0374: OpenPGP for XMPP Instant Messaging](https://xmpp.org/extensions/xep-0374.html) which 
 may replace [XEP-0027: Current Jabber OpenPGP Usage](https://xmpp.org/extensions/xep-0027.html).
 
+It is part of Profanity since version 0.10 but got some fixes since then.
+
 Feel free to try and test the implementation. Let us know, if you have some
 issues and support the development via testing and reporting bugs.
 
