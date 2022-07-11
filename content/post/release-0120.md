@@ -1,6 +1,6 @@
 ---
 title: "Profanity 0.12.0"
-date: 2021-03-30T00:00:00+01:00
+date: 2022-03-30T00:00:00+01:00
 authors:
   - jubalh
 ---
