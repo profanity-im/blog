@@ -1,6 +1,6 @@
 # profanity development blog
 
-Everybod is welcome to write articles for the profanity blog.
+Everybody is welcome to write articles for the profanity blog.
 
 Download latest [hugo](https://github.com/gohugoio/hugo/releases) release.
 Extract it in `~`.
